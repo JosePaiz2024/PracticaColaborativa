@@ -1,15 +1,15 @@
 class Animal():
-
     def __init__(self, estado):
-        self.estado = stad
+        self.estado = estado
 
 class Perro(Animal):
     def __init__(self, estado, nombre):
         super().__init__(estado)
-        self.nombre = name
+        self.nombre = nombre
 
-perrito = Perro("Domestico", "Rex")
-print(perrito)
+perrito = Perro("Doméstico", "Rex")
+print(perrito.estado)
+print(perrito.nombre)
 
 
     
