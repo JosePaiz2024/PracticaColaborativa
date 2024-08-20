@@ -8,8 +8,9 @@ class Perro(Animal):
         self.nombre = nombre
 
 perrito = Perro("Doméstico", "Rex")
-print(perrito.estado)
-print(perrito.nombre)
+print(f"Animal: Perro")
+print(f"Estado: {perrito.estado}")
+print(f"Nombre: {perrito.nombre}")
 
 
     
